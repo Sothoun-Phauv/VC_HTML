@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+ 
+}
+body{
+    background-image: url("web.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.container{
+    display: flex;
+    padding-top:20px ;
+    padding-left: 20px;
+    
+}
+.left{
+    display: flex;
+    padding-left: 600px;
+}
+
+
+li{
+    list-style: none;
+    padding:15px;
+    font-family: Georgia, serif;
+}
+.box{
+    display: flex;
+    margin: 100px;
+}
+.pic{
+    width: 300px;
+    height: 350px;
+    background:none;
+    margin-left: 30px;
+
+}
+.name{
+    width: 600px;
+    height: 350px;
+    background:none;
+    margin-left: 100px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color:white;
+    font-family: 'Times New Roman', serif;
+}
+hr{
+    width: 70%;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+p{
+    padding: 25px;
+    font-size: 20px;
+    color:white;
+}
+img{
+    width: 300px;
+    height: 350px;
+    border-radius: 3px;
+}
+input{
+    margin-left: 100px;
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    background:#3399ff;
+}
+.footer{
+    width:100%;
+    height: 100px;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+}
+.contain{
+    height: 100px;
+    width: 500px;
+    background: none;
+    margin-left: 120vh;
+}
+.app{
+   
+    margin-top: 10px;
+    margin-bottom:20px ;
+    margin-left: 20px;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+   
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  .sky{
+      border-radius: 20px;
+      background:#E6E6FA;
+      color:#2F4F4F;
+      height: 40px;
+      width: 220px;
+      font-size: 20px;
+  }
+  .sky:hover{
+      cursor: pointer;
+      background:	#C71585;
+      color:#FFFF00;
+  }
+  h3{
+      padding-left: 10px;
+  }
