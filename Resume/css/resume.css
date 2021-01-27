@@ -14,6 +14,12 @@ background-color: rgb(241, 239, 239);
     padding-left: 20px;
     
 }
+a{
+    text-decoration: none;
+}
+.left li:hover{
+    background:red;
+}
 .left{
     display: flex;
     padding-left: 600px;
