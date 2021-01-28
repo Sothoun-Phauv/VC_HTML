@@ -9,6 +9,7 @@ body{
     background-image: url("web.jpg");
    background-repeat: no-repeat;
    background-size: cover;
+   background-attachment: fixed;
 }
 h2{
     padding: 15px;
@@ -16,6 +17,8 @@ h2{
 }
 .first:hover{
     background: none;
+    text-shadow: 2px 2px #FF0000;
+    font-family: Georgia, serif;
 }
 .container{
     display: flex;
@@ -172,3 +175,4 @@ input:hover{
   h3{
       padding-left: 10px;
   }
+  

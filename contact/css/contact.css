@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+ 
+}
+body{
+    background-image: url("sky.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mypic{
+    height: 80px;
+    width: 50%;
+    background: rgba(0,0,0,0.5);
+}
+.nav{
+    height: 80px;
+    width: 50%;
+    background: rgba(0,0,0,0.5);
+}
+.container{
+    display: flex;
+}
+img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+  
+    text-decoration: none;
+}
+li {
+    padding: 28px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+li:hover{
+    background:rgb(126, 8, 161);
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    text-shadow: 3px 5px 5px red;
+}
+button{
+    height: 50px;
+    width: 180px;
+    border-radius: 5%;
+    background: rgb(4, 8, 233);
+    font-size: 20px;
+    text-align: center;
+    margin-left: 42%;
+    margin-top:8% ;
+}
+button:hover{
+    color: rgb(250, 226, 8);
+    background: rgba(0,0,0,0.5);
+    font-weight: bold;
+}
+.size{
+    height: 500px;
+    width: 100%;
+    background: white;
+    margin-top:40vh ;
+    border-radius: 40px;
+    display: flex;
+}
+.moon{
+    display: flex;
+}
+.form{
+    height: 500px;
+    width: 40%;
+    background:blue;
+    margin-left: 75px;
+}
+.info{
+    height: 500px;
+    width: 40%;
+    background:yellow;
+    margin-left: 75px;
+}
+h2{
+    padding: 20px;
+}
+    
+
+
