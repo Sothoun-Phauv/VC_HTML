@@ -131,7 +131,7 @@ input[type=email]{
 }
 
 input[type=email]:focus {
-    background-color: lightblue;
+    background-color: rgb(1, 22, 29);
 }
 input[type=text]:focus {
     background-color: rgb(3, 35, 46);
