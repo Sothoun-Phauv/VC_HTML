@@ -25,9 +25,9 @@ body{
     display: flex;
 }
 img{
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
     padding-top: 10px;
     margin-left: 20px;
 }
@@ -45,9 +45,10 @@ a{
     text-decoration: none;
     font-size: 20px;
 }
-li:hover{
-    background:rgb(126, 8, 161);
-
+.active, .nav:hover{
+    color: yellow;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 h1{
@@ -60,7 +61,7 @@ button{
     height: 50px;
     width: 180px;
     border-radius: 5%;
-    background: rgb(4, 8, 233);
+    background: rgb(7, 7, 233);
     font-size: 20px;
     text-align: center;
     margin-left: 42%;
@@ -74,7 +75,7 @@ button:hover{
 .size{
     height: 500px;
     width: 100%;
-    background: white;
+    background: none;
     margin-top:40vh ;
     border-radius: 40px;
     display: flex;
@@ -82,21 +83,170 @@ button:hover{
 .moon{
     display: flex;
 }
-.form{
-    height: 500px;
-    width: 40%;
-    background:blue;
-    margin-left: 75px;
-}
 .info{
+    
+    height: 90vh;
+    width: 40%;
+    background:white;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+.icon{
+    display:flex;
+    
+}
+.for{
     height: 500px;
     width: 40%;
-    background:yellow;
-    margin-left: 75px;
+    background:white;
+    margin-left: 55px;
+    border-radius:10px ;
+    
 }
+
+
 h2{
     padding: 20px;
-}
+    color: black;
     
+}
+.real{
+    float: left;
+    margin-left: 60%;
+    color: black;
+}
+
+.next{
+    color: black;
+    font-size: 30px;
+ padding: 10px;
+}  
+input[type=text]{
+    width: 48%;
+    height: 30px;
+    margin-top: 30px;
+}
+input[type=email]{
+    width: 98%;
+    height: 30px;
+}
+input[type=submit]{
+    width: 20%;
+    height: 30px;
+    color:black;
+    margin-top: 20px;
+}
+form{
+    margin-left: 10px;
+}
+.footer{
+    height: 180px;
+    width: 90%;
+    background: black;
+    margin: 40px;
+}
+
+h5{
+    
+    color: yellow;
+    margin-bottom:20px;
+}
+.green{
+    color: rgb(243, 18, 142);
+}
+.small{
+      height: 60px;
+      width: 60px;
+      margin-left: 4%;
+      border-radius: 50%;
+}
+marquee{
+    color: yellow;
+    font-weight: bold;
+    margin: 20px;
+    font-size:20px ;
+}
+h3{
+    color: black;
+    margin: 10px;
+}
+.map{
+    height: auto;
+    width: auto;
+    background: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.app{
+   
+    margin-top: 10px;
+    margin-bottom:20px ;
+    margin-left: 20px;
+}
+.app:hover{
+   background: none;
+   cursor: pointer;
+   
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+   
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      background: none;
+      color: rgb(0, 255, 13);
+      margin: 10px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 10px;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+    margin: 10px;
+}
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+   margin: 10px;
+  }
+  .sky{
+      border-radius: 20px;
+      background:#E6E6FA;
+      color:#2F4F4F;
+      height: 40px;
+      width: 220px;
+      font-size: 20px;
+  }
+  .sky:hover{
+      cursor: pointer;
+      background:	#C71585;
+      color:#FFFF00;
+  }
+  p{
+      font-size: 30px;
+      color: cornsilk;
+      padding: 15px;
+      font-weight: bold;
+      font-family: 'Times New Roman', serif;
+
+  }
+
 
 

@@ -17,17 +17,32 @@ background-color: rgb(241, 239, 239);
 a{
     text-decoration: none;
 }
-.left li:hover{
+/* .left li:hover{
     background:red;
+} */
+.active, .nav:hover{
+    color: yellow;
+    text-decoration: underline;
+    font-weight: bold;
+   
 }
 .left{
     display: flex;
     padding-left: 600px;
 }
+.first{
+    text-shadow: 2px 4px 4px red;
+    font-weight: bold;
+    font-size: 20px;
+}
 li{
     list-style: none;
     padding:15px;
     font-family: Georgia, serif;
+}
+h2,h3,h4{
+    text-align: center;
+    margin-top: 15px;
 }
 .box{
     width:600px;
@@ -114,6 +129,7 @@ img{
    
     margin-top: 20px;
     margin-bottom:20px ;
+    margin-left:15px ;
 }
 
 .fa-skype {
@@ -154,6 +170,7 @@ img{
       height: 40px;
       width: 220px;
       font-size: 20px;
+      margin-left:50px ;
   }
   .sky:hover{
       cursor: pointer;
@@ -163,4 +180,18 @@ img{
   .text1{
       margin-left: 60px;
   }
-  
+h5{
+    color: white;
+}
+.green{
+    color: #FFFF00;
+}
+.footer{
+    height: 120px;
+    width:100%;
+    background: #000;
+}
+.q2{
+    text-align: center;
+    margin-top:20px; 
+}

@@ -18,6 +18,7 @@ body{
     height: 80px;
     width: 100%;
     background:  rgba(0,0,0,0.5);
+    
 }
 ul{
     display: flex;
@@ -33,8 +34,10 @@ li{
 a{
     text-decoration: none;
 }
-li:hover{
-    background:red;
+.active, .nav:hover{
+  color: yellow;
+  text-decoration: underline;
+  font-weight: bold;
 }
 .img{
     border-radius: 50%;
@@ -49,7 +52,7 @@ li:hover{
   }
 .contain{
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     background:	none;
 }
 h1{
@@ -90,7 +93,7 @@ div.gallery {
     color:black;
   }
   
-  * {
+  *  {
     box-sizing: border-box;
   }
   
@@ -212,4 +215,39 @@ div.gallery {
       height: 30px;
       width: 30px;
   }
+  .q3{
+    height: 80vh;
+    width: 100%;
+    background: none;
+  }
+  @media only screen and (max-width:700){
+    .container{
 
+      width: 45%;
+      
+      display: flex;
+  }
+    .footer{
+      width:45%;
+      display: flex;
+    }
+  }
+
+
+
+  @media only screen and (max-width:700){
+    .container{
+      
+
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 6px 0;
+    
+    }
+    .footer{
+      width: 100%;
+      height: 100%;
+      display: black;
+    }
+  }

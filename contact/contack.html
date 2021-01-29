@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <div class="container">
         <div class="mypic">
-            <img src="css/sky.jpg" alt="wow">
+            <img src="css/sky.jpg" alt="wow" class="big">
         </div>
         <div class="nav">
             <ul>
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="../Resume/resume.html">RESUME</a></li>
-                <li><a href="../block/block.html">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="../index.html" class="nav ">HOME</a></li>
+                <li><a href="../Resume/resume.html" class="nav ">RESUME</a></li>
+                <li><a href="../block/block.html" class="nav">BLOG</a></li>
+                <li><a href="#" class="nav active">CONTACT</a></li>
             </ul>
         </div>
        
@@ -27,15 +29,47 @@
             <button type="button"><a href="#start">Start Now</a></button>
     </div>
     <div class="click" id="start">
+        
         <div class="size">
-                <div class="form"></div>
-                <div class="info"></div>
+                
+                <div class="for">
+                    <br>
+                    <label for="first" class="next">Contact Me!</label>
+                    <form action="text">
+                        <input type="text" placeholder="First name"   id="first">
+                        <input type="text" placeholder="Last name"  id="first">
+                        <br>
+                        <br>
+                        <input type="email" placeholder="Email" id="first">
+                        <br>
+                        <br>
+                        <textarea name="message" id="first" placeholder="Feedback..." cols="68%" rows="10"></textarea>
+                        <br>
+                        <input type="submit" value="Cencel">
+                        <input type="submit" value="Send">
+                        <h2 class="real">Thank You!</h2>
+                        <div class="child">
+
+                        </div>
+                    </form>
+                </div>
+                <div class="info">
+                    <h2>My Location:</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.0139082838555!2d104.88089491387706!3d11.550859791798855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951add5e2cd81%3A0x171e0b69c7c6f7ba!2sPasserelles%20Num%C3%A9riques%20Cambodia%20(PNC)!5e0!3m2!1sen!2skh!4v1611762269022!5m2!1sen!2skh" 
+                    width="100%" height="415" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              
+                </div>
         </div>
         <div class="map">
-            <h2>My Location:</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.0139082838555!2d104.88089491387706!3d11.550859791798855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951add5e2cd81%3A0x171e0b69c7c6f7ba!2sPasserelles%20Num%C3%A9riques%20Cambodia%20(PNC)!5e0!3m2!1sen!2skh!4v1611762269022!5m2!1sen!2skh" 
-            width="100%" height="210" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <p>Follow By:</p>
+            <a href="https://web.facebook.com/ma.sky.961556" class="fa fa-facebook"></a>
+            <a href="https://www.reddit.com/" class="fa fa-reddit"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.skype.com/en/" class="fa fa-skype"></a>
         </div>
+     
+        <marquee>Live Resume <a href="https://www.w3schools.com/css/css3_images.asp" class="green">CSS</a> & 
+            <a href="https://www.w3schools.com/html/" class="green">HTML</a>. All Rights Reserved 2021</marquee>
     </div>
 </body>
 </html>
