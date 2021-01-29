@@ -17,9 +17,7 @@ background-color: rgb(241, 239, 239);
 a{
     text-decoration: none;
 }
-/* .left li:hover{
-    background:red;
-} */
+
 .active, .nav:hover{
     color: yellow;
     text-decoration: underline;
@@ -194,4 +192,18 @@ h5{
 .q2{
     text-align: center;
     margin-top:20px; 
+}
+@media only screen and (max-with:700){
+    .div {
+        height: 46%;
+        width: 45%;
+        display: flex;
+    }
+}@media only screen and (max-with:700){
+    .div{
+        height: 100%;
+        width: 100%;
+        display: block;
+        margin: 8px 0;
+    }
 }

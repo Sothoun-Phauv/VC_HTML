@@ -73,7 +73,7 @@ button:hover{
     font-weight: bold;
 }
 .size{
-    height: 500px;
+    height: auto;
     width: 100%;
     background: none;
     margin-top:40vh ;
@@ -85,7 +85,7 @@ button:hover{
 }
 .info{
     
-    height: 90vh;
+    height: 87vh;
     width: 40%;
     background:white;
     margin-left: 150px;
@@ -96,12 +96,11 @@ button:hover{
     
 }
 .for{
-    height: 500px;
-    width: 40%;
-    background:white;
+   width: 40%;
+    background:rgba(0,0,0,0.5);
     margin-left: 55px;
-    border-radius:10px ;
-    
+    border-radius:10px ;  height: 500px;
+
 }
 
 
@@ -113,7 +112,7 @@ h2{
 .real{
     float: left;
     margin-left: 60%;
-    color: black;
+    color: rgb(200, 252, 13);
 }
 
 .next{
@@ -130,11 +129,22 @@ input[type=email]{
     width: 98%;
     height: 30px;
 }
+
+input[type=email]:focus {
+    background-color: lightblue;
+}
+input[type=text]:focus {
+    background-color: rgb(3, 35, 46);
+  }
+textarea:focus {
+    background-color: rgb(2, 25, 32);
+  }
 input[type=submit]{
-    width: 20%;
-    height: 30px;
-    color:black;
+    width: 47%;
+    height: 40px;
+    color:white;
     margin-top: 20px;
+    background: rgb(6, 6, 216);
 }
 form{
     margin-left: 10px;
@@ -249,4 +259,18 @@ h3{
   }
 
 
-
+@media only screen and (max-width:700px){
+    .size{
+        height: 46%;
+        width: 100%;
+        margin: 6 px 0;
+        display: flex;
+    }
+}
+@media only screen and (max-width:500){
+    .size{
+        height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}

@@ -88,7 +88,7 @@ hr{
 p{
     padding: 25px;
     font-size: 20px;
-    color:white;
+    color:rgb(40, 247, 12);
 }
 img{
     width: 300px;
@@ -96,14 +96,17 @@ img{
     border-radius: 3px;
 }
 
-input{
+button{
     margin-left: 100px;
     width: 180px;
     height: 30px;
     border-radius: 10px;
     background:#3399ff;
 }
-input:hover{
+.red{
+    background: rgb(223, 43, 43);
+}
+button:hover{
     cursor: pointer;
     background: none;
     color: yellow;
@@ -214,6 +217,10 @@ input:hover{
     height: 100%;
     display: flex;
 }
+.left{
+    margin-left:50% ;
+
+}
   }
   
 
@@ -253,6 +260,10 @@ input:hover{
         width: 100%;
         height: 100%;
         display: block;
+    }
+    .left{
+        flex-direction: column;
+        margin: auto;
     }
   }
 
